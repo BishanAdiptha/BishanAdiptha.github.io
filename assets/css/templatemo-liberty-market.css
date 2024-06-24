@@ -2001,7 +2001,10 @@ body {
 .item-details-page .left-image img {
   border: 7px solid transparent;
   border-radius: 50%; /* To make the border circular */
-  max-width: 300px; /* Adjust the maximum width as needed */
+  max-width: 100px; /* Adjust the maximum width as needed */
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
   height: auto; /* Maintain aspect ratio */
   animation: pulsate 2s infinite;
 }
@@ -2527,3 +2530,6 @@ section2 {
   padding: 15px;
   box-sizing: border-box;
 }
+
+
+
